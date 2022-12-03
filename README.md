@@ -1,2 +1,2 @@
 # WebDev
-Here are the project related to web development
+Here are the projects related to web development
