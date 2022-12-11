@@ -1,0 +1,102 @@
+body{
+   background-color: crimson;
+    display: flex;
+    flex-direction: row;
+    font-family: Georgia, serif;
+    font-size: large;
+    
+}
+header{
+    color: black;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-shadow: 1px 1px 2px red, 0 0 1em rgb(166, 255, 0), 0 0 0.2em rgb(0, 247, 95);
+    background-color: rgb(149, 207, 255);
+    border-radius: 60px;
+    padding: 18px ;
+    /* padding-bottom: 20px; */
+    border: 2px solid black;
+    width: auto;
+    text-align: center;
+    margin: auto;
+}
+
+#navbar{
+    background-color: black;
+    height: auto;
+    width: auto;
+   border: 3px solid rgb(204, 126, 174);
+   padding: 20px 10px 20px 10px;
+   margin: 10px;
+   border-radius: 50px;
+}
+#main-doc{
+    margin-left: 30px;
+    width: 75%;
+    height: 100vh;
+}
+.image{
+    width: 55vw;
+    margin: auto;
+    padding: 20px;
+}
+.nav-link{
+    text-decoration: none;
+    font-family: Cambria Math;
+    color :rgb(194, 18, 150);
+    line-height: 2;
+
+}
+#ul-navbar{
+    list-style-type: none;
+}
+.syntax {
+    display: block;
+    white-space: pre;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    width: auto;
+    padding: 0;
+    color: black;
+    
+}
+
+
+.main-section{
+    background: linear-gradient(to right, rgb(63, 26, 131), rgb(187, 38, 137));
+    /* margin-top: 10px; */
+    margin: 20px auto;
+    border-radius: 30px;
+    padding: 50px;
+    text-align: left;
+    border: 5px solid black;
+    width: auto;
+    color: burlywood;
+    
+}
+a:visited{
+    color : green;
+}
+a:hover{
+    color : rgb(37, 172, 19);
+}
+.owner{
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+a#self:visited{
+color: blue;
+}
+a#self:hover{
+    color :rgb(43, 138, 145)
+}
+hr{
+    width: auto;
+}
+#reference{
+    margin: 20px;
+    width: auto;
+    height: auto;
+}
