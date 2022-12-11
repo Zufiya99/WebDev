@@ -1,0 +1,69 @@
+@media screen and (max-width: 1000px) {
+  nav {
+    flex-direction: column;
+  }
+
+  .btn {
+    position: relative;
+    left: -84px;
+    top: 1px;
+  }
+
+  .slider {
+    height: 100%;
+  }
+
+  .slider img {
+    max-width: 100%;
+    margin: 15px 5px;
+    background-repeat: repeat-x;
+  }
+
+  .logo {
+    justify-content: center;
+    margin: 12px 0;
+  }
+
+  nav ul {
+    justify-content: center;
+  }
+
+  .search {
+    justify-content: center;
+  }
+
+  .search input {
+    margin-left: 69px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    width: 53vw;
+    height: 27px;
+    border-radius: 5px;
+    padding: 5px 26px;
+  }
+
+  nav ul {
+    height: 34px;
+  }
+
+  .card-item img {
+    width: 140px;
+  }
+
+  .copy {
+    max-height: 20px;
+    position: relative;
+    left: 21%;
+  }
+
+  footer {
+    display: inline-flexbox;
+    align-items: center;
+    justify-content: center;
+  }
+  .owner {
+    position: relative;
+    top: -2px;
+    left: -85px;
+  }
+}
