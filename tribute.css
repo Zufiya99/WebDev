@@ -1,0 +1,135 @@
+body {
+    background: linear-gradient(to right, rgb(89, 230, 119), rgb(110, 231, 240))
+}
+
+#title {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 10px;
+    text-shadow: 5px 5px 10px rgb(73, 223, 190);
+    font-weight: 1000;
+}
+
+#description {
+    text-align: center;
+    padding-bottom: 10px;
+    font-weight: 300;
+}
+
+#head {
+    font-family: Cambria Math;
+    
+    border-radius: 20px;
+    display: block;
+    text-align: center;
+    margin: auto;
+    max-width: 80vw;
+    /* border: 1px solid black */
+}
+
+#img-caption {
+    text-align: center;
+    font-family: cursive;
+    font-size: 15px;
+    padding: 0;
+}
+
+#img-div {
+    height: auto;
+    background-color: #FCD1D1;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding-bottom: 5px;
+    max-width: 50vw;
+    display: inline-flexbox;
+    text-align: center;
+    margin: auto;
+}
+
+#image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 20%;
+}
+#timeline{
+    text-shadow: 5px 5px 10px white;
+    font-size: 30px;
+    text-align: center;
+    font-family: Georgia, serif;
+    font-weight: 800;
+    
+}
+
+
+#tribute-info{
+    max-width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: azure;
+    border-style: thin medium thick 10px;
+    text-align: center;
+    margin: auto;
+    border: 5px solid black;
+}
+
+ul{
+    max-width: 100%;
+}
+li{
+    margin : 10px;
+    text-align: justify;
+}
+#para{
+    font-family: Georgia, serif;
+    text-align: justify;
+    border: 1px solid black;
+    font-size: large;
+    font-weight: 500;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(219, 118, 157), rgb(178, 194, 86));
+    width: 70vw;
+    display: inline-flexbox;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+#quote{
+    border: 1px solid pink;
+    border-radius: 13px;
+    font-size: large;
+    font-weight: 500;
+    font-family: Georgia, serif;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color: burlywood;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+#right{
+    text-align: right;
+    font-weight: 300;
+}
+#footer{
+    text-align: center;
+}
+
+a:visited{
+ color: rgb(99, 59, 59);
+}
+a:hover{
+    color : rgb(49, 194, 238);
+}
+.owner {
+    padding-top: 3em;
+    text-align: center;
+  }
