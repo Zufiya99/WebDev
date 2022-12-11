@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Survey Form</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="survey-form.css" />
+</head>
+
+<body>
+  <header>
+    <br />
+    <h1 id="title">SCHOOL ANNUAL DAY - SURVEY FORM</h1>
+    <p id="description">
+      Thank you for attending the function.</p>
+    <br />
+  </header>
+  <main>
+    <form id="survey-form" action="">
+      <div>
+        <label for="name" id="name-label" class="name"><b>
+            Please Enter Your Name :
+          </b></label>
+        <input id="name" type="text" placeholder="Enter your name" required />
+        <br />
+        <label for="email" id="email-label" class="email"><b>Please Enter Your E-mail :</b> </label>
+        <input id="email" type="email" placeholder="abc@gmail.com" required />
+        <br />
+        <label for="age" id="number-label" class="age"><b> Please Enter Your Age : </b></label>
+        <input id="number" type="number" name="number" min="6" max="15" placeholder="Age" required />
+        <br />
+        <label for="age" id="number-label" class="age"><b> Please Enter Your Class : </b></label>
+        <input id="number" type="number" name="number" min="1" max="10" placeholder="Class" required />
+        <br />
+        <label for="dropdown">Which option best describes your current role</label>
+        <select id="dropdown">
+          <option value="1">Current Role</option>
+          <option value="2">Student</option>
+          <option value="3">Teacher</option>
+          <option value="4">Principal</option>
+          <option value="5">Supervisor</option>
+        </select>
+        <br />
+        <br />
+        <hr>
+        <label for="model-color" id="Model-Color"><b>Did you Enjoy the function ?</b></label>
+        <br>
+        <br>
+        <input id="yes" type="radio" name="like" value="like" class="radio" />
+        <label class="rad" for="like">YES</label>
+        &nbsp;
+        <input id="no" type="radio" name="like" value="like" class="radio" />
+        <label class="rad" for="like" id="model-color3">NO</label>
+        &nbsp;
+        <br>
+
+        <hr>
+
+        <label for="features"><b>Which program you liked the most ?</b></label>
+        <br />
+        <br>
+        <input type="checkbox" class="checkbox" name="program" value="1" />
+        <label for="program">Elocution</label>
+        <br />
+        <input type="checkbox" class="checkbox" name="program" value="2" />
+        <label for="program">Recitation</label>
+        <br />
+        <input type="checkbox" class="checkbox" name="program" value="3" />
+        <label for="program">Skit</label>
+        <br />
+        <input type="checkbox" class="checkbox" name="program" value="4" />
+        <label for="program">Dance</label>
+        <br />
+        <input type="checkbox" class="checkbox" name="program" value="5" />
+        <label for="program">Song</label>
+        <br />
+
+
+
+        <hr>
+        <label for="textarea"><b> Please let us know your feedback regarding today's function :</b> </label>
+        <br />
+        <textarea name="feedback" placeholder="Enter your feedback here..."></textarea>
+        <br />
+        <button value="submit" id="submit" type="submit">Submit</button>
+      </div>
+    </form>
+  </main>
+  <footer class="owner">
+    © Written And Coded By
+    <a href="https://www.linkedin.com/in/zufiyaidrisi9797/" target="_blank">Zufiya Idrisi</a>
+  </footer>
+</body>
+
+</html>
