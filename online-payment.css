@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.container {
+    height: 650px;
+    width: 350px;
+    background-image: linear-gradient(#4ac468, #49df36);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.top-box {
+    height: 150px;
+    background-color: #67d15f;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+
+.top-box p {
+    text-align: center;
+    padding-top: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.left-icon {
+    float: left;
+    margin-left: 30px;
+}
+
+.right-icon {
+    float: right;
+    margin-right: 30px;
+}
+
+.middle-box {
+    height: 150px;
+    background-image: linear-gradient(#86d865, #59db6f);
+    margin: -70px 30px 20px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 12px;
+    border-radius: 10px;
+}
+
+.middle-box h1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 50px;
+    font-weight: normal;
+}
+
+.middle-box h1 span {
+    font-size: 20px;
+    margin-left: 5px;
+    bottom: 18px;
+    position: relative;
+}
+
+.payment-option-btn {
+    color: rgb(0, 0, 0);
+    margin: 5px 30px;
+    height: 30px;
+    width: 290px;
+    background-color: rgb(37, 151, 37);
+    border: none;
+    cursor: pointer;
+}
+
+.payment-option-btn:hover {
+    background-color: green;
+    color: wheat;
+}
+
+.card-details {
+    background-color: whitesmoke;
+    color: #555;
+    margin: 10px 30px;
+    padding: 10px;
+}
+
+.card-details p {
+    font-size: 14px;
+}
+
+.card-details label {
+    font-size: 10px;
+    line-height: 20px;
+}
+
+.card-num-field-group {
+    margin-top: 10px;
+}
+
+.date-num-field-group {
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.cvc-num-field-group {
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.name-field-group {
+    margin-top: 10px;
+}
+
+.card-num-field,
+.name-field {
+    width: 270px;
+}
+
+.date-field,
+.cvc-field {
+    width: 80px;
+}
+
+.card-details input {
+    width: auto;
+    border: 1px solid black;
+    height: 10px;
+    padding: 5px;
+    font-size: 10px;
+}
+
+.pay-bt {
+    color: rgb(0, 0, 0);
+    margin-top: 30px;
+    height: 30px;
+    width: 270px;
+    background-color: rgb(37, 151, 37);
+    border: none;
+    cursor: pointer;
+}
+
+.pay-bt:hover {
+    background-color: green;
+    color: wheat;
+}
