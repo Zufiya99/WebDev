@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap');
+
+* {
+  font-family: 'Signika Negative', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(rgb(221, 74, 130), rgb(224, 40, 70));
+  /* overflow-y: hidden; */
+}
+
+#heading {
+  text-align: center;
+  color: black;
+  margin-top: 12px;
+}
+
+.wrapper {
+  height: 500px;
+  width: 360px;
+  color: black;
+  background: rgb(212, 90, 90);
+  border-radius: 1rem;
+  padding: 1.2rem;
+  border: 4px solid black;
+  margin: 30px auto;
+  overflow-y: hidden;
+}
+
+#topContainer {
+  margin-top: 4rem;
+}
+
+.container {
+  margin-top: 1.4rem;
+}
+
+.title {
+  font-weight: bold;
+  margin-bottom: 0.6rem;
+}
+
+.inputContainer {
+  background: white;
+  border: 2px solid black;
+  border-radius: 1.4rem;
+  padding: 0 0.8rem;
+  display: flex;
+  align-items: center;
+}
+
+#billTotalInput,
+#tipInput {
+  font-size: 1.2rem;
+  background: none;
+  border: none;
+  outline: none;
+  padding: none;
+}
+
+.buttonContainer {
+  background: white;
+  display: grid;
+  place-items: center;
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+.splitButton {
+  background: none;
+  border: none;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+}
+
+.splitButton {
+  font-size: 0.8rem;
+  font-weight: bold;
+  display: grid;
+  place-items: center;
+}
+
+.buttonText {
+  color: #353959 !important;
+  font-size: medium;
+}
+
+.splitAmount {
+  font-size: 1.6rem;
+  margin: 0.8rem;
+}
+
+#bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.totalContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.total {
+  font-size: 2rem;
+}
+
+#self {
+  text-align: center;
+  font-size: 20px;
+  margin: 40px auto 20px auto;
+}
+
+a:visited {
+  color: rgb(9, 9, 36);
+}
+
+a:hover {
+  color: blue;
+}
